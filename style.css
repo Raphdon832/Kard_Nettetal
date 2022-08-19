@@ -30,6 +30,14 @@ body{
         z-index: -1;
     }
 
+    .name{
+        width: 200px;
+        height: 100px;
+        top: 460px;
+        position: absolute;
+        left: 95px;
+    }
+
     .picture{
         width: 400px;
         height: 550px;
@@ -79,5 +87,17 @@ body{
         display:block;
         border-radius: 10px;
     }
+
+    .phone{
+        position:absolute;
+        width: 250px;
+        height: 52px;
+        top: 700px;
+        left: 75px;
+        margin:0 auto;
+        display:block;
+        border-radius: 10px;
+    }
+
   }
   
