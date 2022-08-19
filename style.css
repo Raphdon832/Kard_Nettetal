@@ -40,12 +40,41 @@ body{
         z-index: -1; */
     }
 
+    .socials{
+        width: auto;
+        height: auto;
+        left: 1150px;
+        background-color: aqua;
+    }
+
     .facebook{
         position:absolute;
         width: 52.57px;
         height: 50.96px;
         top: 600px;
         left: 100px;
+        margin:0 auto;
+        display:block;
+        border-radius: 10px;
+    }
+
+    .twitter{
+        position:absolute;
+        width: 52.57px;
+        height: 50.96px;
+        top: 600px;
+        left: 175px;
+        margin:0 auto;
+        display:block;
+        border-radius: 10px;
+    }
+
+    .instagram{
+        position:absolute;
+        width: 52.57px;
+        height: 50.96px;
+        top: 600px;
+        left: 250px;
         margin:0 auto;
         display:block;
         border-radius: 10px;
