@@ -19,6 +19,8 @@ body{
 
     .parent{
         position: relative;
+        height: 100%;
+        width: 100%;
         background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
     }
 
@@ -47,12 +49,12 @@ body{
         height: 100px;
         top: 460px;
         position: absolute;
-        left: 99px;
+        left: 100px;
     }
 
     .socials{
-        width: auto;
-        height: auto;
+        /* width: auto;
+        height: auto; */
         left: 1150px;
         background-color: aqua;
     }
