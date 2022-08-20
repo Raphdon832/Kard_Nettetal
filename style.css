@@ -30,22 +30,24 @@ body{
         z-index: -1;
     }
 
+
+    .picture{
+        width: 400px;
+        height: 550px;
+        top: 55px;
+        left: 2.9px;
+        position: absolute;
+        object-fit: contain;
+        /* object-fit: fill;
+        z-index: -1; */
+    }
+
     .name{
         width: 200px;
         height: 100px;
         top: 460px;
         position: absolute;
-        left: 95px;
-    }
-
-    .picture{
-        width: 400px;
-        height: 550px;
-        top: 75.99px;
-        left: 2px;
-        position: absolute;
-        /* object-fit: fill;
-        z-index: -1; */
+        left: 99px;
     }
 
     .socials{
@@ -63,7 +65,7 @@ body{
         left: 100px;
         margin:0 auto;
         display:block;
-        border-radius: 10px;
+        border-radius: 6px;
     }
 
     .twitter{
@@ -74,7 +76,7 @@ body{
         left: 175px;
         margin:0 auto;
         display:block;
-        border-radius: 10px;
+        border-radius: 6px;
     }
 
     .instagram{
@@ -85,18 +87,18 @@ body{
         left: 250px;
         margin:0 auto;
         display:block;
-        border-radius: 10px;
+        border-radius: 6px;
     }
 
     .phone{
         position:absolute;
-        width: 250px;
+        width: 210px;
         height: 52px;
-        top: 700px;
-        left: 75px;
+        top: 670px;
+        left: 97px;
         margin:0 auto;
         display:block;
-        border-radius: 10px;
+        border-radius: 6px;
     }
 
   }
