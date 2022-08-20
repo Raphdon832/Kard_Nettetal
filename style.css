@@ -5,6 +5,10 @@ body{
     overflow: hidden;
 }
 
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
 .background{
     width: 100px;
     height: 200px;
@@ -17,6 +21,9 @@ body{
     [class*="col-"] {
       width: 100%;
     }
+    .example::-webkit-scrollbar {
+        display: none;
+      }
 
     body{
         overflow: hidden;
@@ -43,7 +50,7 @@ body{
         height: 550px;
         top: 30px;
         left: 2.9px;
-        position: fixed;
+        position: absolute;
         object-fit: contain;
         /* align-items: center; */
         /* object-fit: fill;
@@ -54,7 +61,7 @@ body{
         width: 200px;
         height: 100px;
         top: 399px;
-        position: fixed;
+        position: absolute;
         left: 100px;
     }
 
@@ -66,7 +73,7 @@ body{
     }
 
     .facebook{
-        position:fixed;
+        position:absolute;
         width: 52.57px;
         height: 50.96px;
         top: 550px;
@@ -77,7 +84,7 @@ body{
     }
 
     .twitter{
-        position:fixed;
+        position:absolute;
         width: 52.57px;
         height: 50.96px;
         top: 550px;
@@ -88,7 +95,7 @@ body{
     }
 
     .instagram{
-        position:fixed;
+        position:absolute;
         width: 52.57px;
         height: 50.96px;
         top: 550px;
@@ -99,7 +106,7 @@ body{
     }
 
     .phone{
-        position:fixed;
+        position:absolute;
         width: 210px;
         height: 52px;
         top: 620px;
