@@ -110,16 +110,13 @@ body{
         width: 210px;
         height: 52px;
         top: 620px;
-        left: 97px;
+        left: 99px;
         margin:0 auto;
         display:block;
         border-radius: 35px;
         background: linear-gradient(95.5deg, #AE6F59 41.76%, #B49387 128.51%);
     }
 
-    .phoneColor{
-        fill: white;
-    }
 
   }
   
