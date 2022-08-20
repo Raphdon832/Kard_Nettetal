@@ -1,7 +1,8 @@
 body{
     background-color: black;
-    height: 100%;
+    height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .background{
@@ -15,6 +16,10 @@ body{
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
+    }
+
+    body{
+        overflow: hidden;
     }
 
     .parent{
