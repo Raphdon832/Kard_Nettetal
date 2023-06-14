@@ -2,7 +2,7 @@ body{
     background-color: black;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .example::-webkit-scrollbar {
@@ -46,10 +46,10 @@ body{
 
 
     .picture{
-        width: 400px;
-        height: 550px;
-        top: 30px;
-        left: 2.9px;
+        width: 200px;
+        height: 300px;
+        top: 150px;
+        left: 100px;
         position: absolute;
         object-fit: contain;
         /* align-items: center; */
