@@ -36,8 +36,8 @@ body {
     width: 25%;
     height: auto;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 5%;
+    transform: translateY(-50%);
     position: absolute;
   }
   
@@ -62,8 +62,8 @@ body {
   .facebook,
   .twitter,
   .instagram {
-    width: 52.57px;
-    height: 50.96px;
+    width: 50px;
+    height: 50px;
   }
   
   .phone {
